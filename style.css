@@ -1,0 +1,101 @@
+body{
+    font-family: "Roboto",sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #FF5C58;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 0.5em;
+    border-radius: 5px;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: #FF5C58;
+    color: #ffffff;
+  }
+  
+  /* Add a color to the active/current link */
+  .navbar a.active {
+    background-color: #FF5C58;
+    color: white;
+  }
+.add-button{
+    cursor: pointer;
+}
+#plus-icon{
+    color:#FF5C58;
+    margin: 2px 2px;
+}
+.plus-button-text{
+    font-size: 1.2em;
+    color: gray;
+}
+.outer-container{
+    margin: 50px 200px;
+    position: absolute;
+}
+.flex-head,.list-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+ .heading-bold{
+     font-size: 2em;
+     font-weight: bold;
+ }
+ .heading-thin{
+     font-weight: 200;
+     color: gray;
+ }
+ hr{
+     margin: 0px;
+ }
+ .padding-no{
+     padding-bottom: 5px;
+     margin-bottom: 5px;
+ }
+ .card1{
+     min-height: 355px;
+     min-width: 229px;
+     border:1px solid #FF5C58;
+     background:#ffffff 0% 0% no-repeat padding-box; 
+     box-shadow: 10px 10px 10px lightgray;
+     border-radius: 20px;
+     margin: 10px;
+     text-align: center;
+     padding-bottom: 0px;
+     display: flex;
+     flex-direction: column;
+     justify-content: baseline;
+     display: flex;
+ }
+ .card1-heading{
+    font-size: 0.7em;
+    font-weight: 200;
+    color: #FF5C58;
+    text-decoration: underline lightgray ;
+}
+.ul-type{
+    list-style-type: none;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.list-text{
+    font-size: 0.58em;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 7px;
+    position: relative;
+}
+.cross{
+    text-decoration: line-through #FF5C58;
+    color: #FF5C58;
+    padding-left: 25px;
+}
